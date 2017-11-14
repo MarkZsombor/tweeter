@@ -15,18 +15,18 @@ html {
  */
 
 body {
-  margin: 0;
-  color: #244751;
   background-color: #eee;
+  color: #244751;
   font-family: 'Roboto Condensed', sans-serif;
-  margin-top: 140px;
+  margin: 0;
+  margin-top: 80px;
 }
 
 main {
-  width: 450px;
   background-color: white;
-  margin: auto;
+  width: 450px;
 }
+
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
