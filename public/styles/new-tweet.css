@@ -8,11 +8,11 @@
 }
 
 .new-tweet {
-  background-color: #D3D3D3;
+  background-color: #eee;
   border: 1px solid black;
   border-radius: 10px;
   margin: auto;
-  padding: 5px;
+  padding: 8px;
 }
 .new-tweet h2 {
   border-bottom: 1px solid black;
@@ -26,7 +26,12 @@
 }
 
 .new-tweet .counter {
+  height: 30px;
   float: right;
+  font-size: 90%;
+  font-style: italic;
+  line-height: 30px;
+  padding-right: 5px;
 }
 
 form {
