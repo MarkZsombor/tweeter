@@ -1,0 +1,60 @@
+.old-tweets {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0px;
+
+}
+
+.old-tweets h2 {
+  display: inline-block;
+  float: left;
+  margin-top: 5px;
+  padding: 0px 8px;
+}
+
+.old-tweets .id-name {
+  display: inline-block;
+  float: right;
+  height: 70px;
+  line-height: 70px;
+  margin-top: 0px;
+  padding: 0px 8px;
+}
+
+.old-tweets img {
+  float: left;
+  height: 70px;
+  width: 70px;
+  padding: 5px;
+}
+
+.old-tweets footer{
+  border-top: 1px solid black;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 8px;
+  font-size: 90%;
+}
+
+.old-tweets header {
+  background-color: #eee;
+  border-radius: 10px 10px 0px 0px;
+  height: 70px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.old-tweets .tweet-content {
+  max-width: 100%;
+  min-width: 100px;
+  padding: 0px 8px;
+  width: 100%;
+}
+
+
+form {
+  margin-bottom: 2px;
+}
