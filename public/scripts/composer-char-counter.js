@@ -9,6 +9,9 @@ $(document).ready(function() {
     $(this).parent().children('.counter').text(function() {
       return remainingChars;
     });
+    if (remainingChars < 0) {
+      $(this).parent().children('.counter').css('color', 'red');
+    }
   });
 
 });
