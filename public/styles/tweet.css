@@ -26,6 +26,7 @@ article {
 }
 
 #tweets-container img {
+  border-radius: 10px;
   float: left;
   height: 70px;
   width: 70px;
