@@ -59,7 +59,8 @@ function createTweetElement(tweetObject) {
       .append(`<p class="handle">${tweetObject.user.handle}</p>`);
 
   var $section = $('<section>')
-      .append(`<p class="tweet-content">${tweetObject.content.text}</p>`);
+      // .append(`<p class="tweet-content">${tweetObject.content.text}</p>`);
+      .append('<p>').text(tweetObject.content.text).addClass('tweet-content');
 
   var $footer = $('<footer>')
       .append(`<p class="date">${tweetObject.created_at}</p>`)

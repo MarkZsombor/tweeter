@@ -12,7 +12,6 @@ article {
   display: inline-block;
   float: left;
   margin-top: 5px;
-  opacity: 0.75;
   padding: 0px 8px;
 }
 
@@ -30,7 +29,6 @@ article {
   float: left;
   height: 70px;
   width: 70px;
-  opacity: 0.75;
   padding: 5px;
 }
 
@@ -46,6 +44,7 @@ article {
   background-color: #eee;
   border-radius: 10px 10px 0px 0px;
   height: 70px;
+  opacity: 0.5;
   vertical-align: middle;
   width: 100%;
 }
@@ -72,19 +71,13 @@ form {
 }
 
 article:hover .fa {
-  padding: 5px;
-  float: right;
   opacity: 0.75;
 }
 
+#tweets-container article:hover header {
+  opacity: 1;
+  }
+
 article:hover {
   border: 1px solid black;
-}
-
-article:hover h2 {
-  opacity: 1;
-}
-
-article:hover img {
-  opacity: 1;
 }
