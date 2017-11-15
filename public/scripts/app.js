@@ -62,8 +62,10 @@ function createTweetElement(tweetObject) {
       // .append(`<p class="tweet-content">${tweetObject.content.text}</p>`);
       .append('<p>').text(tweetObject.content.text).addClass('tweet-content');
 
+  var creationDate = convertDate(tweetObject.created_at);
+
   var $footer = $('<footer>')
-      .append(`<p class="date">${tweetObject.created_at}</p>`)
+      .append(`<p class="date">${creationDate}</p>`)
       .append('<i class="fa fa-heart">')
       .append('<i class="fa fa-retweet">')
       .append('<i class="fa fa-flag">');
@@ -83,6 +85,9 @@ function renderTweets(tweets) {
 }
 
 
+function convertDate(timeCode) {
+  return new Date(timeCode).toUTCString();
+}
 
 $(document).ready(function() {
   renderTweets(data);
