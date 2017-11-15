@@ -12,12 +12,14 @@
   display: inline-block;
   float: left;
   margin-top: 5px;
+  opacity: 0.75;
   padding: 0px 8px;
 }
 
 .old-tweets .id-name {
   display: inline-block;
   float: right;
+  font-size: 90%;
   height: 70px;
   line-height: 70px;
   margin-top: 0px;
@@ -32,11 +34,11 @@
 }
 
 .old-tweets footer{
-  border-top: 1px solid black;
+  border-top: 1px solid #C0C0C0;
+  font-size: 80%;
   height: 25px;
   line-height: 25px;
   padding: 0 8px;
-  font-size: 90%;
 }
 
 .old-tweets header {
@@ -48,8 +50,6 @@
 }
 
 .old-tweets .tweet-content {
-  max-width: 100%;
-  min-width: 100px;
   padding: 0px 8px;
   width: 100%;
 }
@@ -57,4 +57,29 @@
 
 form {
   margin-bottom: 2px;
+}
+
+.old-tweets footer p {
+  display: inline-block;
+  margin: 0px;
+}
+
+.fa {
+  padding: 5px;
+  float: right;
+  opacity: 0;
+}
+
+article:hover .fa {
+  padding: 5px;
+  float: right;
+  opacity: 0.75;
+}
+
+article {
+  opacity: 0.75;
+}
+
+article:hover {
+  opacity: 1;
 }
