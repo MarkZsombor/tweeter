@@ -34,9 +34,10 @@ $(document).ready(function() {
   }
 
   function renderTweets(tweets) {
+    $('#tweets-container').empty();
     for (var entry of tweets) {
       var newTweet = createTweetElement(entry);
-      $('#tweets-container').append(newTweet);
+      $('#tweets-container').prepend(newTweet);
     }
   }
 

@@ -19,6 +19,7 @@
 }
 
 .new-tweet textarea {
+  height: 70px;
   max-width: 100%;
   min-width: 100px;
   padding: 5px;

@@ -51,6 +51,7 @@ article {
 }
 
 #tweets-container .tweet-content {
+  word-wrap: break-word;
   padding: 0px 8px;
   width: 100%;
 }
