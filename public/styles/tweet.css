@@ -8,7 +8,7 @@ article {
 
 }
 
-.old-tweets h2 {
+#tweets-container h2 {
   display: inline-block;
   float: left;
   margin-top: 5px;
@@ -16,7 +16,7 @@ article {
   padding: 0px 8px;
 }
 
-.old-tweets .id-name {
+#tweets-container .handle {
   display: inline-block;
   float: right;
   font-size: 90%;
@@ -26,14 +26,15 @@ article {
   padding: 0px 8px;
 }
 
-.old-tweets img {
+#tweets-container img {
   float: left;
   height: 70px;
   width: 70px;
+  opacity: 0.75;
   padding: 5px;
 }
 
-.old-tweets footer{
+#tweets-container footer{
   border-top: 1px solid #C0C0C0;
   font-size: 80%;
   height: 25px;
@@ -41,7 +42,7 @@ article {
   padding: 0 8px;
 }
 
-.old-tweets header {
+#tweets-container header {
   background-color: #eee;
   border-radius: 10px 10px 0px 0px;
   height: 70px;
@@ -49,7 +50,7 @@ article {
   width: 100%;
 }
 
-.old-tweets .tweet-content {
+#tweets-container .tweet-content {
   padding: 0px 8px;
   width: 100%;
 }
@@ -59,7 +60,7 @@ form {
   margin-bottom: 2px;
 }
 
-.old-tweets footer p {
+#tweets-container footer p {
   display: inline-block;
   margin: 0px;
 }
@@ -81,5 +82,9 @@ article:hover {
 }
 
 article:hover h2 {
+  opacity: 1;
+}
+
+article:hover img {
   opacity: 1;
 }
