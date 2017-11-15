@@ -52,22 +52,22 @@ $(document).ready(function() {
       console.log('the button is clicked');
       // console.log($(this)); // input#new-tweet
       var $form = $(this).parent();
-      // console.log('form serial', $form.serialize());
+      // an empty tweet will have $form.serialize().length of 5
+      if ($form.serialize().length <= 5) {
+        alert("Tweets can't be blank");
+        return;
+      } else if ($form.serialize().length > 145) {
+        alert("Tweets can't be more than 140 characters");
+        return;
+      }
       $.ajax({
         type: 'POST',
         url:  '/tweets/',
         data: $form.serialize()
       })
-        // .done(function(data) {
-        //   console.log(data);
-        // });
         .done(function() {
-          console.log(data);
-          alert( "success" );
-        })
-        .fail(function() {
-          alert( "error" );
-        })
+          loadTweets();
+        });
     });
   }
 
