@@ -1,6 +1,6 @@
-.old-tweets {
+article {
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid grey;
   border-radius: 10px;
   margin: auto;
   margin-top: 20px;
@@ -76,10 +76,10 @@ article:hover .fa {
   opacity: 0.75;
 }
 
-article {
-  opacity: 0.75;
+article:hover {
+  border: 1px solid black;
 }
 
-article:hover {
+article:hover h2 {
   opacity: 1;
 }
