@@ -85,4 +85,10 @@ $(document).ready(function() {
 
   loadTweets();
   getNewTweet();
+
+  $( ".compose" ).click(function() {
+    $( ".new-tweet" ).slideToggle( "slow", function() {
+    });
+  });
+
 });
