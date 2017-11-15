@@ -91,4 +91,7 @@ $(document).ready(function() {
     });
   });
 
+  $(function() {
+    $('textarea').focus().select();
+  });
 });
