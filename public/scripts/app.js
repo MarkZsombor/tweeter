@@ -14,7 +14,7 @@ $(document).ready(function() {
         .append(`<h2 class="user-name">${tweetObject.user.name}</h2>`)
         .append(`<p class="handle">${tweetObject.user.handle}</p>`);
 
-    var $section = $('<section>')
+    var $content = $('<div>')
         // .append(`<p class="tweet-content">${tweetObject.content.text}</p>`);
       .append('<p>').text(tweetObject.content.text).addClass('tweet-content');
 
@@ -27,7 +27,7 @@ $(document).ready(function() {
       .append('<i class="fa fa-flag">');
 
     var $newTweet = $('<article class="tweet">')
-      .append($header, $section, $footer);
+      .append($header, $content, $footer);
 
 
     return $newTweet;
@@ -90,6 +90,7 @@ $(document).ready(function() {
 
   $( ".compose" ).click(function() {
     $( ".new-tweet" ).slideToggle( "slow", function() {
+    $('textarea').focus().select();
     });
   });
 
