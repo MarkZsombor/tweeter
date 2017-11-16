@@ -66,20 +66,24 @@ form {
   margin: 0px;
 }
 
-.fa {
+footer .fa {
   padding: 5px;
   float: right;
   opacity: 0;
 }
 
-article:hover .fa {
+.tweet:hover .fa {
   opacity: 0.75;
 }
 
-#tweets-container article:hover header {
+#tweets-container .tweet:hover header {
   opacity: 1;
   }
 
-article:hover {
+.tweet:hover {
   border: 1px solid black;
+}
+
+.tweet header{
+  transition: all .5s ease-in-out;
 }

@@ -17,6 +17,10 @@
   width: 80px;
 }
 
+#nav-bar .fa {
+  opacity: 1;
+}
+
 #nav-bar .header {
   float: left;
   font-size: 200%;
