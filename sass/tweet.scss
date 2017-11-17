@@ -1,0 +1,96 @@
+/*
+Description: Styling for tweet items
+Author: Mark Zsombor
+*/
+
+.tweet {
+  background-color: #fff;
+  border: 1px solid #808080;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0px;
+
+  header {
+    transition: all .5s ease-in-out;
+  }
+}
+
+#tweets-container{
+  h2 {
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    padding: 0px 8px;
+  }
+
+  .handle {
+    display: inline-block;
+    float: right;
+    font-size: 90%;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 0px;
+    padding: 0px 8px;
+  }
+
+  img {
+    border-radius: 10px;
+    float: left;
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+  }
+
+  footer{
+    border-top: 1px solid #808080;
+    font-size: 80%;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 8px;
+  }
+
+  header {
+    background-color: #eee;
+    border-radius: 10px 10px 0px 0px;
+    height: 70px;
+    opacity: 0.5;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .tweet-content {
+    word-wrap: break-word;
+    padding: 0px 8px;
+    width: 100%;
+  }
+
+  footer p {
+    display: inline-block;
+    margin: 0px;
+  }
+
+  form {
+    margin-bottom: 2px;
+  }
+
+
+}
+
+footer .fa {
+  padding: 5px;
+  float: right;
+  opacity: 0;
+}
+
+.tweet:hover .fa {
+  opacity: 0.75;
+}
+
+#tweets-container .tweet:hover header {
+  opacity: 1;
+  }
+
+.tweet:hover {
+  border: 1px solid #000;
+}

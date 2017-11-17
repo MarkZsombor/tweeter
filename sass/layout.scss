@@ -1,0 +1,28 @@
+/*
+ * SCSS file for complining
+ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #eee;
+  color: #244751;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  margin-top: 80px;
+}
+
+main {
+  background-color: white;
+  width: 450px;
+}
+
+.bottom {
+  background-color: #00a087;
+  color: #e8fdff;
+  text-align: center;
+}
