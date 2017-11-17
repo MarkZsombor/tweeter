@@ -31,3 +31,9 @@ main {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+.bottom {
+  background-color: #00a087;
+  color: #e8fdff;
+  text-align: center;
+}
