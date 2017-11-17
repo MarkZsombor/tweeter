@@ -1,11 +1,18 @@
-article {
-  background-color: white;
-  border: 1px solid grey;
+/*
+Description: Styling for tweet items
+Author: Mark Zsombor
+*/
+.tweet {
+  background-color: #fff;
+  border: 1px solid #808080;
   border-radius: 10px;
   margin: auto;
   margin-top: 20px;
   padding: 0px;
+}
 
+.tweet header{
+  transition: all .5s ease-in-out;
 }
 
 #tweets-container h2 {
@@ -56,14 +63,13 @@ article {
   width: 100%;
 }
 
-
-form {
-  margin-bottom: 2px;
-}
-
 #tweets-container footer p {
   display: inline-block;
   margin: 0px;
+}
+
+form {
+  margin-bottom: 2px;
 }
 
 footer .fa {
@@ -81,9 +87,5 @@ footer .fa {
   }
 
 .tweet:hover {
-  border: 1px solid black;
-}
-
-.tweet header{
-  transition: all .5s ease-in-out;
+  border: 1px solid #000;
 }

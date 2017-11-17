@@ -1,6 +1,9 @@
-
+/*
+Description: Styling for the new tweet item
+Author: Mark Zsombor
+*/
 .container {
-  background-color: white;
+  background-color: #fff;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -9,13 +12,13 @@
 
 .new-tweet {
   background-color: #eee;
-  border: 1px solid black;
+  border: 1px solid #000;
   border-radius: 10px;
   margin: auto;
   padding: 8px;
 }
 .new-tweet h2 {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000;
 }
 
 .new-tweet textarea {

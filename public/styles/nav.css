@@ -1,3 +1,8 @@
+/*
+Description: Styling for the navigation bar
+Author: Mark Zsombor
+*/
+
 #nav-bar {
   background-color: #00a087;
   color: #e8fdff;
@@ -31,7 +36,7 @@
 
 #nav-bar .compose {
   background-color: #98ff98;
-  border: 1px solid black;
+  border: 1px solid #000;
   border-radius: 5px;
   float: right;
   font-size: 150%;
@@ -40,6 +45,6 @@
 }
 
 #nav-bar .compose:hover {
-  background-color: white;
-  color: black;
+  background-color: #fff;
+  color: #000;
 }
