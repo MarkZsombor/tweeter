@@ -1,18 +1,13 @@
 /*
- * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
- * https://css-tricks.com/international-box-sizing-awareness-day/
- * Do not modify these two selectors, please
+ * SCSS file for complining
  */
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-/*
- * Global layout stuff
- */
 
 body {
   background-color: #eee;
@@ -26,11 +21,6 @@ main {
   background-color: white;
   width: 450px;
 }
-
-
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
 
 .bottom {
   background-color: #00a087;

@@ -11,7 +11,7 @@ Author: Mark Zsombor
   padding: 0px;
 }
 
-.tweet header{
+.tweet header {
   transition: all .5s ease-in-out;
 }
 
@@ -40,8 +40,8 @@ Author: Mark Zsombor
   padding: 5px;
 }
 
-#tweets-container footer{
-  border-top: 1px solid #C0C0C0;
+#tweets-container footer {
+  border-top: 1px solid #808080;
   font-size: 80%;
   height: 25px;
   line-height: 25px;
@@ -68,7 +68,7 @@ Author: Mark Zsombor
   margin: 0px;
 }
 
-form {
+#tweets-container form {
   margin-bottom: 2px;
 }
 
@@ -84,7 +84,7 @@ footer .fa {
 
 #tweets-container .tweet:hover header {
   opacity: 1;
-  }
+}
 
 .tweet:hover {
   border: 1px solid #000;
