@@ -3,9 +3,11 @@ Description: Styling for the navigation bar
 Author: Mark Zsombor
 */
 
+@import 'colors';
+
 #nav-bar {
-  background-color: #00a087;
-  color: #e8fdff;
+  background-color: $backgroundColor;
+  color: $textColor;
   height: 80px;
   left: 0;
   padding: 0 2em;

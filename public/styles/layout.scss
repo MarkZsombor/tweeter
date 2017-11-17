@@ -1,6 +1,9 @@
 /*
  * SCSS file for complining
  */
+
+@import 'colors';
+
 html {
   box-sizing: border-box;
 }
@@ -22,7 +25,7 @@ main {
 }
 
 .bottom {
-  background-color: #00a087;
-  color: #e8fdff;
+  background-color: $backgroundColor;
+  color: $textColor;
   text-align: center;
 }
