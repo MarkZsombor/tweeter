@@ -10,7 +10,7 @@ The back end of the app is build using Node, Express and MongoDB.
 
 !["Screenshot of the main page"](https://github.com/MarkZsombor/tweeter/blob/master/docs/tweeter.png)
 !["Screenshot showing no new tweet section w/ compose button mouseover"](https://github.com/MarkZsombor/tweeter/blob/master/docs/tweeter_no_compose.png)
-
+!["Screenshot showing mouseover of individual tweet"](https://github.com/MarkZsombor/tweeter/blob/master/docs/tweeter_tweetmouseover.png)
 
 ## Getting Started
 
