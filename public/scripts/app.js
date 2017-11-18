@@ -109,9 +109,42 @@ $(document).ready(function() {
     });
   }
 
+
+  function registerNewUser() {
+    var $registerButton = $('#register');
+    $registerButton.on('click', function() {
+      event.preventDefault();
+      console.log($(this)); //= input#register
+      var $form = $(this).parent();
+      if(!req.body.newHandle) {
+        res.status(400);
+        alert("Please enter a handle you'll be known by")
+        return;
+      }
+      if(!req.body.displayName) {
+        res.status(400);
+        alert('Please enter a display name');
+        return;
+      }
+      if(!req.body.password) {
+        res.status(400);
+        alert('Password cannot be empty');
+        return;
+      }
+      // POST the text content to the server, when done load the tweet, clear the textarea and reset the char counter
+      $.ajax({
+        type: 'POST',
+        url:  '/register/',
+        data: $form.serialize(),
+      })
+    });
+
+  }
+
   // populate the page with tweets in database
   loadTweets();
   getNewTweet();
+  // registerNewUser();
 
   // clicking the compose button will toggle the new tweet area and focus on the textarea
   $( ".compose" ).click(function() {

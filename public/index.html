@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
     <link rel="stylesheet" href="/styles/tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/login.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/register.css" type="text/css" />
     <!-- External JS -->
     <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
 
@@ -42,6 +44,25 @@
           <textarea name="text" placeholder="What are you humming about?"></textarea>
           <input type="submit" value="Tweet" id="new-tweet">
           <span class="counter">140</span>
+        </form>
+      </section>
+
+      <section class="register">
+        <h2>Please make a new account</h2>
+        <form action="/register/" method="POST">
+          <input id="newHandle" type="newHandle" name="newHandle" placeholder="type your handle name here">
+          <input id="displayName" type="displayName" name="displayName" placeholder="type your display name here">
+          <input id="password" type="password" name="password" placeholder="type your password here">
+          <input type="submit" value="Submit" id="register">
+        </form>
+      </section>
+
+      <section class="login">
+        <h2>Please Login to tweet</h2>
+        <form action="/login/" method="POST">
+          <input id="handle" type="handle" name="handle" placeholder="type your handle name here">
+          <input id="password" type="password" name="password" placeholder="type your password here">
+          <input type="submit" value="Submit" id="login">
         </form>
       </section>
 

@@ -1,0 +1,25 @@
+/*
+Styling for the Register feature
+*/
+.register {
+  background-color: #eee;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: auto;
+  padding: 8px;
+}
+
+.register h2 {
+  border-bottom: 1px solid #000;
+}
+
+.register input {
+  max-width: 100%;
+  min-width: 100px;
+  padding: 5px;
+  width: 368px;
+}
+
+form {
+  margin-bottom: 2px;
+}
