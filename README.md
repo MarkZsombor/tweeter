@@ -29,7 +29,7 @@ The back end of the app is build using Node, Express and MongoDB.
 
 ## Features and Functionality
 
-Can create a short tween (140 characters or less) that will be added to a database and displayed on the page.
+Can create a short tweet (140 characters or less) that will be added to a database and displayed on the page.
 
 ## Future Goals
 
